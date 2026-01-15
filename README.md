@@ -229,9 +229,4 @@ API:
 - Worker logs each processed event (status + error).
 - API logs startup or failure.
 
-## 12) Known limitations / TODOs
-
-- GMX live execution is not implemented (adapter returns error when not in dry-run).
-- Ostium endpoint paths/payloads are placeholders until verified.
-- Event source is file-based; no real queue/stream integration yet.
 
